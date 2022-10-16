@@ -1,0 +1,12 @@
+"0","setwd(""~/Library/CloudStorage/Box-Box/Playground Learning/Kaggle/Titanic_Disaster_Dataset"")"
+"0","titanic.train <- read.csv(file = ""train.csv"", "
+"0","                          stringsAsFactors = FALSE, "
+"0","                          header = TRUE, na.strings = """")"
+"0","titanic.test <- read.csv(file = ""test.csv"", "
+"0","                          stringsAsFactors = FALSE, "
+"0","                          header = TRUE)"
+"0","# titanic.train has column Cabin and Age that has many NA values "
+"0","# plot missingness map which shows the missing values"
+"0","library(Amelia)"
+"2","Error in library(Amelia) : there is no package called ‘Amelia’
+"

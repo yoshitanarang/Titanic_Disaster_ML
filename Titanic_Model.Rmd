@@ -1,0 +1,36 @@
+---
+title: "Titanic Model"
+author: "Yoshita Narang"
+date: "2022-10-16"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Introduction
+Proposing the eminent Kaggle Titanic dataset in a Machine Learning competition. The purpose of my works are to use machine learning to create a model that predicts which passengers survived the Titanic shipwreck. Using R, I will implement this model using Data Science to depict accurate graphs and perform statistical analysis to determine survival rates as a binary (0 = did not survive & 1 = survived). 
+
+```{r}
+setwd("~/Library/CloudStorage/Box-Box/Playground Learning/Kaggle/Titanic_Disaster_Dataset")
+titanic.train <- read.csv(file = "train.csv", 
+                          stringsAsFactors = FALSE, 
+                          header = TRUE, na.strings = "")
+titanic.test <- read.csv(file = "test.csv", 
+                          stringsAsFactors = FALSE, 
+                          header = TRUE)
+# titanic.train has column Cabin and Age that has many NA values 
+# plot missingness map which shows the missing values
+
+```
+## Data Cleaning 
+
+```{r}
+# Creating new column & assigning all values to true 
+titanic.train$IsTrainSet <- TRUE
+# Creating new column & assigning all values to false 
+titanic.test$IsTrainSet <- FALSE
+# Test set lacks SURVIVED col, so ADD col
+```

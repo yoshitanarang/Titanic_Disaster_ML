@@ -1,0 +1,28 @@
+{
+    "id": "E6778BE9",
+    "path": "~/Library/CloudStorage/Box-Box/Playground Learning/Kaggle/Titanic_Disaster_Dataset/Titanic_Model.Rmd",
+    "project_path": "Titanic_Model.Rmd",
+    "type": "r_markdown",
+    "hash": "2513622128",
+    "contents": "",
+    "dirty": false,
+    "created": 1665950353607.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "25,0",
+        "scrollLine": "17",
+        "last_setup_crc32": "2992AC25bb338d19",
+        "ignored_words": "missingness\n"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1665953493,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1665953493692,
+    "read_only": false,
+    "read_only_alternatives": []
+}
